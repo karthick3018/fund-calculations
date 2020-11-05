@@ -1,0 +1,21 @@
+{
+  "env": {
+    "test": {
+      "presets": [
+        ["preact-cli/babel", { "modules": "commonjs" }]
+      ]
+    }
+  },
+//   "plugins": [
+//     ["module-resolver", {
+//     "root": ["."],
+//     "alias": {
+//         "react": "preact-compat",
+//         "react-dom": "preact-compat"
+//     }
+//     }]
+// ],
+"presets": [
+    "react"
+]
+}
